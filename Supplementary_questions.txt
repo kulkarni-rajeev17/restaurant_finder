@@ -1,0 +1,22 @@
+1)Please give a rough estimate of how long you spent on the Python Coding Challenge?
+Ans)I spent nearly a day doing this challenge. I spent most of my time parsing the given data and making it more useful.
+
+2)2. If you had more time available, what features would you like to add to your script to make it more useful?
+Ans)If I had more time I would have added a feature where the user could favriote a restuarant and can have easier access to its data much quicker.
+
+3)Did you experience any issues/difficulties whilst writing your code? 
+Did you encounter any problems with using the API? If so, please provide details and describe how you resolved/overcame these obstacles?
+Ans)One of the few dificulties I encountered while writing code was parsing the data and formatting the data to put it in a clear and understandble manner.
+I went through the official documentation which gave me a much clearer perspective.
+
+The only dificulty I faced while using the API was giving cuisine as a parameter. 
+Even if I gave cuisine as a parameter the API showed results the same as not entering a cuisine and only entering a postcode.
+I resolved this issues by building a cusine selector in my code and returning the result of that.
+
+4)Do you have any suggestions as to how the Just Eat API could be improved?
+Ans)Some of the suggestions on how API can be improved is:
+1) Even if we give an invalid postcode the api returns results with 0 resturants. Maybe we can throw an error if the user has entered a invalid Postcode.
+2)The cuisine parameter should give the user the results with that particulat cuisine instead of all the cuisine's in the area.
+
+
+I have had a ton of fun building this script.
